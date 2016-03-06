@@ -51,8 +51,8 @@ if ( ! class_exists( 'WC_Frontend_Submissions_Beta_Tester' ) ) :
 				'plugin_file'        => 'woocommerce-frontend-submissions/woocommerce-frontend-submissions.php',
 				'slug'               => 'woocommerce-frontend-submissions',
 				'proper_folder_name' => 'woocommerce-frontend-submissions',
-				'api_url'            => 'https://api.github.com/repos/seb86/woocommerce-frontend-submissions',
-				'github_url'         => 'https://github.com/seb86/woocommerce-frontend-submissions',
+				'api_url'            => 'https://api.github.com/repos/seb86/WooCommerce-Frontend-Submissions',
+				'github_url'         => 'https://github.com/seb86/WooCommerce-Frontend-Submissions',
 				'requires'           => '4.2',
 				'tested'             => '4.4'
 			);
@@ -74,7 +74,7 @@ if ( ! class_exists( 'WC_Frontend_Submissions_Beta_Tester' ) ) :
 			$this->config[ 'new_version' ]  = $this->get_latest_tag();
 			$this->config[ 'last_updated' ] = $this->get_date();
 			$this->config[ 'description' ]  = $this->get_description();
-			$this->config[ 'zip_url' ]      = 'https://github.com/seb86/woocommerce-frontend-submissions/zipball/' . $this->config[ 'new_version' ];
+			$this->config[ 'zip_url' ]      = 'https://github.com/seb86/WooCommerce-Frontend-Submissions/zipball/' . $this->config[ 'new_version' ];
 		}
 
 		/**
