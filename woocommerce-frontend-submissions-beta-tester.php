@@ -7,10 +7,10 @@
  * Author: Sebastien Dumont
  * Author URI: http://sebastiendumont.com
  * Requires at least: 4.2
- * Tested up to: 4.4
+ * Tested up to: 4.4.2
  *
  * Based on WP_GitHub_Updater by Joachim Kudish.
- * Forked from WooCommerce Beta Tester by Mike Jolly and Claudio Sanches.
+ * Forked from WooCommerce Beta Tester by Mike Jolley and Claudio Sanches.
  */
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
